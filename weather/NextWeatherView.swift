@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NextHoursWeatherView: View {
+struct NextWeatherView: View {
     var body: some View {
             
             VStack(alignment: .leading) {
@@ -28,5 +28,5 @@ struct NextHoursWeatherView: View {
 }
 
 #Preview {
-    NextHoursWeatherView()
+    NextWeatherView()
 }

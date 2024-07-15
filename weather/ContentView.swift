@@ -13,7 +13,7 @@ struct ContentView: View {
             HeaderView()
             WeatherInfoView()
                 .padding(.bottom, 24)
-            NextHoursWeatherView()
+            NextWeatherView()
                 .padding()
             Spacer()
         }
