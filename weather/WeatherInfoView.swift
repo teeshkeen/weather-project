@@ -10,7 +10,7 @@ import SwiftUI
 struct WeatherInfoView: View {
     var body: some View {
         HStack {
-            Spacer()
+            
             VStack {
                 HStack {
                     Text("Friday, 15 July 2024")
@@ -61,7 +61,7 @@ struct WeatherInfoView: View {
             .cornerRadius(12)
             .foregroundStyle(.white)
             
-            Spacer()
+            
         }
     }
 

@@ -11,14 +11,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HeaderView()
-            WeatherInfoView()
-                .padding(.bottom, 24)
-            NextWeatherView()
-                .padding()
-            Spacer()
+        ScrollView {
+            VStack {
+                
+                
+                HStack {
+                    Spacer(minLength: 25)
+                    VStack {
+                        HeaderView()
+                            .padding(.vertical)
+                        WeatherInfoView()
+                            .padding(.bottom, 24)
+                        NextWeatherView()
+                        DailyListView()
+                    }
+                    Spacer(minLength: 25)
+                }
+                .padding(.bottom, 8)
+                
+                    
+                
+            }
         }
+        
     }
 }
 

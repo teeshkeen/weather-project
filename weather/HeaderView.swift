@@ -40,7 +40,6 @@ struct HeaderView: View {
             }
             .labelStyle(.iconOnly)
         }
-        .padding()
         .alert(isPresented: $isPresented) {
             Alert(title: Text("Sorry!"), message: Text("Not supported ;C"), dismissButton: .default(Text("OK :C")))
             }
@@ -53,5 +52,5 @@ struct HeaderView: View {
 
 
 #Preview {
-    HeaderView()
+    ContentView()
 }

@@ -22,7 +22,7 @@ struct NextWeatherView: View {
                     HourWeatherView()
                 }
                 .padding(.bottom, 25)
-                DailyView()
+                    TomorrowWeatherView()
             }
     }
 }
